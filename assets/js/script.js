@@ -51,7 +51,7 @@ const handleClick = async () => {
                 datasets: [{
                     label: 'Variaciones moneda',
                     data:valores,
-                    bordercolor: "rgb(255, 255, 255)"
+                    // bordercolor: "rgb(255, 255, 255)"
                 }]
             }
 
