@@ -11,8 +11,8 @@ const handleClick = async () => {
         alert ("Complete los campos antes de continuar");
         return;
         }
-    if ((dinero.value) < 0) {
-        alert("El valor ingresado no puede ser negativo");
+    if ((dinero.value) < 1) {
+        alert("El valor ingresado no puede ser negativo o 0");
         return;
         }
 
