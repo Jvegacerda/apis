@@ -44,20 +44,20 @@ const handleClick = async () => {
 
 
             const ctx = document.getElementById('myChart')
-
+            const  colorDeLinea  =  "blue";
 
             const dataChart = {
                 labels:etiquetas,
                 datasets: [{
                     label: 'Variaciones moneda',
-                    data:valores,
-                    // bordercolor: "rgb(255, 255, 255)"
+                    backgroundColor:  colorDeLinea,
+                    data:valores,                    
                 }]
             }
 
             myChart = new Chart (ctx, {
-                type: 'radar',
-                data: dataChart,
+                type: 'line',
+                data: dataChart,                
             })
 
 
