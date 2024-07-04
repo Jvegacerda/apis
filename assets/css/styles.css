@@ -1,0 +1,35 @@
+.recuadro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 3, 44);
+    color: rgb(255, 255, 255);
+    width: 600px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.recuadro2 {
+    background-color: rgb(76, 87, 116);
+    width: 70%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#buscar {
+    background-color: rgb(41, 143, 184);
+    color: rgb(255, 255, 255);
+    border: solid 3px rgb(4, 0, 253);
+    border-radius: 3px;
+}
+
+span {
+    background-color: black;
+    color: red;
+}
+
+#myChart {
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+}
