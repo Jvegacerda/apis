@@ -44,13 +44,13 @@ const handleClick = async () => {
 
 
             const ctx = document.getElementById('myChart')
-            const  colorDeLinea  =  "blue";
+            // const  colorDeLinea  =  "blue";
 
             const dataChart = {
                 labels:etiquetas,
                 datasets: [{
                     label: 'Variaciones moneda',
-                    backgroundColor:  colorDeLinea,
+                    // backgroundColor:  colorDeLinea,
                     data:valores,                    
                 }]
             }
