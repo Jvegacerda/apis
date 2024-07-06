@@ -1,6 +1,5 @@
 let myChart
 
-
 const handleClick = async () => {
     const select = document.querySelector("#divisa")
     const dinero = document.querySelector("#pesos")
